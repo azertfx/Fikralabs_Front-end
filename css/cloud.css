@@ -1,0 +1,105 @@
+.btn {
+  width: 300px;
+  height: 300px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: #FFEB3B;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+.cloud {
+  width: 200px;
+  height: 80px;
+  position: relative;
+  background: #fff;
+  display: inline-block;
+  border-radius: 50px;
+  margin: 120px auto 0;
+  box-shadow: 0px 0px #EFD81B, 1px 1px #EFD81B, 2px 2px #EFD81B, 3px 3px #EFD81B, 4px 4px #EFD81B, 5px 5px #EFD81B, 6px 6px #EFD81B, 7px 7px #EFD81B, 8px 8px #EFD81B, 9px 9px #EFD81B, 10px 10px #EFD81B, 11px 11px #EFD81B, 12px 12px #EFD81B, 13px 13px #EFD81B, 14px 14px #EFD81B, 15px 15px #EFD81B, 16px 16px #EFD81B, 17px 17px #EFD81B, 18px 18px #EFD81B, 19px 19px #EFD81B, 20px 20px #EFD81B, 21px 21px #EFD81B, 22px 22px #EFD81B, 23px 23px #EFD81B, 24px 24px #EFD81B, 25px 25px #EFD81B, 26px 26px #EFD81B, 27px 27px #EFD81B, 28px 28px #EFD81B, 29px 29px #EFD81B, 30px 30px #EFD81B, 31px 31px #EFD81B, 32px 32px #EFD81B, 33px 33px #EFD81B, 34px 34px #EFD81B, 35px 35px #EFD81B, 36px 36px #EFD81B, 37px 37px #EFD81B, 38px 38px #EFD81B, 39px 39px #EFD81B, 40px 40px #EFD81B, 41px 41px #EFD81B, 42px 42px #EFD81B, 43px 43px #EFD81B, 44px 44px #EFD81B, 45px 45px #EFD81B, 46px 46px #EFD81B, 47px 47px #EFD81B, 48px 48px #EFD81B, 49px 49px #EFD81B, 50px 50px #EFD81B, 51px 51px #EFD81B, 52px 52px #EFD81B, 53px 53px #EFD81B, 54px 54px #EFD81B, 55px 55px #EFD81B, 56px 56px #EFD81B, 57px 57px #EFD81B, 58px 58px #EFD81B, 59px 59px #EFD81B, 60px 60px #EFD81B, 61px 61px #EFD81B, 62px 62px #EFD81B, 63px 63px #EFD81B, 64px 64px #EFD81B, 65px 65px #EFD81B, 66px 66px #EFD81B, 67px 67px #EFD81B, 68px 68px #EFD81B, 69px 69px #EFD81B, 70px 70px #EFD81B, 71px 71px #EFD81B, 72px 72px #EFD81B, 73px 73px #EFD81B, 74px 74px #EFD81B, 75px 75px #EFD81B, 76px 76px #EFD81B, 77px 77px #EFD81B, 78px 78px #EFD81B, 79px 79px #EFD81B, 80px 80px #EFD81B, 81px 81px #EFD81B, 82px 82px #EFD81B, 83px 83px #EFD81B, 84px 84px #EFD81B, 85px 85px #EFD81B, 86px 86px #EFD81B, 87px 87px #EFD81B, 88px 88px #EFD81B, 89px 89px #EFD81B, 90px 90px #EFD81B, 91px 91px #EFD81B, 92px 92px #EFD81B, 93px 93px #EFD81B, 94px 94px #EFD81B, 95px 95px #EFD81B, 96px 96px #EFD81B, 97px 97px #EFD81B, 98px 98px #EFD81B, 99px 99px #EFD81B, 100px 100px #EFD81B;
+}
+.cloud:after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  border-radius: 80px 80px 0 0;
+  top: -40px;
+  background: #fff;
+  left: 40px;
+}
+.cloud:before {
+  content: '';
+  position: absolute;
+  background: #636262;
+  border-radius: 10px;
+  width: 90px;
+  height: 6px;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  margin: auto;
+}
+
+.file {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 5;
+  top: 50px;
+  width: 80px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+}
+.file:after {
+  content: '';
+  position: absolute;
+  background: #FF5252;
+  width: 80px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  border-radius: 0 0 10px 10px;
+  -webkit-animation: uplaod 3s linear infinite;
+  animation: uplaod 3s linear infinite;
+}
+.file:before {
+  content: '';
+  background: #fff;
+  color: #fff;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  z-index: 3;
+  margin: auto;
+  -webkit-animation: uplaod 3s linear infinite;
+  animation: uplaod 3s linear infinite;
+  box-shadow: 0 15px, 0 30px;
+}
+@-webkit-keyframes uplaod {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
+@keyframes uplaod {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
